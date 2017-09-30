@@ -1,2 +1,2 @@
-# puj-candycrush 
-Candy Orientado a Objetos
+# puj-candycrush
+Proyecto Programación Orientada a Objetos juego CandyCrush en consola.
