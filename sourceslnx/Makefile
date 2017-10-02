@@ -6,21 +6,19 @@ DEPS = Juego.h \
 	   GeneradorSimbolos.h \
 	   GeneradorEtiquetas.h \
 	   Terminal.h \
-	   Tablero.h \
-	   Mijuego.h
+	   Tablero.h 
 OBJ = maincandyoo.o \
       Ficha.o \
 	  GeneradorEtiquetas.o \
 	  GeneradorSimbolos.o \
 	  Juego.o \
 	  Tablero.o \
-	  Terminal.o \
-	  MiJuego.o
+	  Terminal.o 
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-candy.exe: $(OBJ)
+candy2.exe: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
 clean:
