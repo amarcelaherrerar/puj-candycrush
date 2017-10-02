@@ -4,14 +4,16 @@
 #include <iostream>
 using namespace std;
 
-/// class GeneradorSimbolos - 
+/// Class for generating random symbols
 class GeneradorSimbolos {
   // Attributes
 protected:
-  	string cadenaSimbolos;
+  	string cadenaSimbolos; // String of sryimbols
   // Operations
 public:
-  GeneradorSimbolos (string nuevosSimbolos);
-  char nextSimbolo ();
+	// Constructor with a new string of sybols
+	GeneradorSimbolos (string nuevosSimbolos);
+	// Returns a new random symbol from the string of symbols
+	char nextSimbolo ();
 };
 #endif
